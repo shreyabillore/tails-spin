@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* max-width: 100%; */
+}
+
+/* .mainBody{
+  background-image: url('https://cdn.hovia.com/app/uploads/Grey-and-White-Dog-Paw-Print-Pattern-Wallpaper-Mural-Plain-820x532.jpg');
+} */
+
+.formParentContainer{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 7%;
+    
+    
+}
+
+.serviceForm h1{
+  padding-left: 15%;
+
+}
+
+.serviceForm label{
+  margin-left: 3%;
+  margin-bottom: 5%;
+}
+
+.contactInfo p{
+
+  margin:5%
+}
+
+
+.contactInfo{
+ 
+    width: 40%;
+    background: orange;
+    color: whitesmoke;
+    font-size: 2rem;
+    border-top-left-radius: 1.2rem; 
+    border-bottom-left-radius: 1.2rem;
+    box-shadow: 0px 5px 20px -7px #01f7e346;
+}
+.serviceFormParent label{
+    font-weight: bold;
+  }
+
+  .serviceForm{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    border-top-right-radius: 1.2rem; 
+    border-bottom-right-radius: 1.2rem;
+   
+
+  }
+
+  .serviceFormInput{
+        
+      height: 3rem; 
+      border-radius: 1.2rem;
+      box-shadow: 0px 5px 20px -7px rgba(0,0,0,0.75);
+      border: none;
+      outline: none;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      font-size: 1rem;
+  }
+
+
+  .serviceFormParent {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    
+  }
+  
+  
+
+  .serviceFormButton{
+      height: 40px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 20px -7px rgba(0,0,0,0.75);
+      border: none;
+     font-weight: bold;
+     font-size: 1rem;
+     margin-top: 2rem;
+  }
+
+  .serviceFormButton:hover{
+   cursor: pointer;
+   background-color: orange;
+}
+

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parentContainer{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+ 
+
+}
+
+.tagLine{
+    display: flex;
+    background: orange;
+    /* color: orange; */
+    height:10rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Island Moments', cursive;
+    border-radius:15px;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    margin-top: 0;
+
+}
+.filterSortBar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filterSortBar  button{   
+    cursor: pointer;
+    
+}
+
+
+.filterBar{
+    display: flex;
+    margin-top: 21%;
+    flex-direction: column;
+    border: solid lightgrey;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+    line-height: 3rem;
+    padding-left:2rem;
+    font-size: 1rem;
+    text-align: left  
+   
+}
+
+
+.filterBar input{
+    margin-left: 1rem;
+   
+}
+
+.filterBar h2{
+   text-align: left !important
+}
+
+.filterBar label{
+    font-weight: lighter;
+    font-family: inherit
+}
+
+.brand{
+    margin-top: 10%;
+}
+.sortBar{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    margin-top: 10%;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    border: solid lightgrey;
+    border-radius: 1rem;
+    padding-left:2rem;
+    font-size: 1rem;
+    padding-bottom: 10%;
+   
+}
+
+.highLow {
+    margin-top: 10%;
+    height: 2rem;   
+    border: none;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    font-size: 1rem;
+}
+
+.highLow:hover,.lowHigh:hover{
+
+    background-color: orange;
+    border-radius: 10px;
+}
+.lowHigh{
+    margin-top: 10%;
+    height: 2rem;  
+    border: none;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    font-size: 1rem;
+}
+
+
+
+.mainLayout{
+    display: flex;
+}
+.productCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 2rem;
+    width: 100%;
+  
+}
+
+.product{
+    height:28rem ;
+    width: 20rem;
+    margin-top: 2rem;
+    border-radius:15px;
+    background-color: white;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+}
+
+.product >img{
+    width: 100%;
+    height: 70%;
+}
+
+.product button{
+    width: 100%;
+    height: 10%;
+    border-style: none;
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+    background: orange;
+}
+
+.product button:hover{
+    background: whitesmoke;
+}

@@ -1,0 +1,19 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .animalCard{
+            background-color: white; 
+            margin: 2rem 2rem;  
+            border-radius:15px;
+            box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75);
+            font-size: 1.3rem;
+            padding-left: 1rem;
+    }
+    .animalNewsParent{
+        width: 100%;
+    }
+

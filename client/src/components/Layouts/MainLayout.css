@@ -1,0 +1,214 @@
+/*latest */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #f1f2f5; 
+}
+
+.header{
+    display: flex;
+    padding: 15px 20px; 
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: #caebf2;
+    z-index: 100;
+    top : 0;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+
+ }
+ 
+ .header__left > a> h1{
+    font-family: 'Island Moments', cursive;
+    font-size: 250%;
+    text-decoration: none;
+ }
+
+ .header__left >a{
+  text-decoration: none;
+  color: black;
+ }
+ .header__left  {
+     display: flex;
+     /* justify-content: space-evenly; */
+     align-items: center;
+    }
+ 
+ .header__input  {
+     display: flex;
+     align-items: center;
+     background-color: #eff2f5;
+     padding: 10px;
+     border-radius: 999px;
+     margin-top: 2.2rem;
+     width: 100%;
+    }
+    
+ 
+ .header__left  > img {
+  width : 18%;
+  border-radius: 50%;
+  padding-right: 2%;
+
+ }
+
+ .header__center{
+    width: 60%;
+    margin-right: 13rem;
+    
+ }
+ 
+ .header__input  >input {
+     border: none;
+     background-color:transparent;
+     outline-width: 0;
+     width: 100%;
+        }
+    
+  
+ 
+    .header__info{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+ 
+
+ 
+ .header__right{
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        justify-content: space-between;
+        width: 20%;       
+ }
+
+
+ .header__right >a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  margin-right: 1rem;
+ }
+.navBarList > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover{
+    background: orange;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    background: #caebf2;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    font-weight: bold;
+    font-size:20px;
+    padding: 0;
+}
+
+.navBarList{
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #caebf2;
+    font-size: 1rem;
+    align-items: center;
+    
+    
+    
+}
+
+.endofFooter{
+    display: flex;
+    justify-content: space-between;
+    /* background: #EFEFEF; */
+    background: #caebf2;
+   
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+   
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orange;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 8%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown > button{
+     text-align: center;
+  }
+
+  .loginBtn{
+    background: #caebf2;
+    border: none;
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+
+  .loginBtn:hover{
+    cursor: pointer;
+  }
